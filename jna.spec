@@ -1,6 +1,6 @@
 Name:           jna
 Version:        3.5.2
-Release:        6%{?dist}
+Release:        8%{?dist}
 Summary:        Pure Java access to native libraries
 # src/com/sun/jna/WeakIdentityHashMap.java is from apache-cxf project
 License:        LGPLv2+ and ASL 2.0
@@ -136,6 +136,12 @@ cp -a doc/javadoc/* %{buildroot}%{_javadocdir}/%{name}
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.5.2-8
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.5.2-7
+- Mass rebuild 2013-12-27
+
 * Tue Aug 06 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 3.5.2-6
 - Add LGPLv3+ and MIT licenses to contrib subpackage
 
